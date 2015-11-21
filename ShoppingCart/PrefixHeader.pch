@@ -1,0 +1,21 @@
+//
+//  PrefixHeader.pch
+//  ShoppingCart
+//
+//  Created by bingjie-macbookpro on 15/11/21.
+//  Copyright © 2015年 Bingjie. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <Masonry.h>
+#import <UIImageView+WebCache.h>
+
+#define SCREEN_WIDTH    ([UIScreen mainScreen].bounds.size.width)
+#define SCREEN_HEIGHT   ([UIScreen mainScreen].bounds.size.height)
+
+#endif /* PrefixHeader_pch */
